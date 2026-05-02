@@ -2,7 +2,7 @@
 const selectElement = function (element) {
   return document.querySelector(element);
 };
-//menu toggle function 
+//menu toggle
 let menuToggler = selectElement(".menu-toggle");
 let body = selectElement("body");
 menuToggler.addEventListener("click", function () {
